@@ -1,0 +1,301 @@
+.headerline {
+    background-color: #f1c222;
+    width: 100%;
+    height: 5px;
+}
+
+.container {
+    width: 100%;
+    height: 700px
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.information-tab {
+    width: 100%;
+    height: 70px;
+    background-color: #29398d;
+    display: flex;
+    font: 14px;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+.img {
+    cursor: pointer;
+    margin-left: px;
+    height: 80px;
+    float: left;
+    padding-left: 40px;
+}
+
+.img1 {
+    margin-left: 20px;
+    height: 70px;
+    padding-top: 7px;
+}
+
+.subheading {
+    color: #fff;
+    text-align: center;
+    
+    justify-content: space-between;
+    font-size: 14.4px;
+    margin-left: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: small;
+}
+
+.right-move:nth-child(6) {
+    padding-left: 350px;
+}
+
+.body-section {
+
+    display: flex;
+    gap: 15px
+}
+
+.img3section-left {
+    width: 29%;
+}
+
+.img3 {
+
+    width: 100%;
+    padding-left: 67px;
+    padding-top: 8px;
+}
+
+
+.content-section-right {
+    width: 71%;
+    text-align: justify;
+}
+
+.para {
+    font-family: 'Source Code Pro', monospace;
+    line-height: 1.25;
+    font-size: medium;
+    padding-left: 79px;
+    color: rgb(36, 35, 35);
+    margin-top: 10px;
+    text-align: justify;
+    letter-spacing: 0cm;
+    font-size: 15.3px;
+    margin-right: 70px;
+
+}
+
+.header {
+    padding-left: 79px;
+
+    font-family: 'Source Code Pro', monospace;
+    color: #2F40B5;
+    margin-top: 11px;
+
+}
+
+.button {
+    border: none;
+    margin-top: 10px;
+    height: 37px;
+    width: 190px;
+    background-color: #216f9d;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 79px;
+    border-radius: 4px;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+.bottom-section {
+    margin-top: 60px;
+    display: flex;
+    gap: 10px;
+    position: relative;
+}
+
+.bs-img-1,
+.bs-img-2,
+.bs-img-3,
+.bs-img-4 {
+    border-radius: 9px;
+    width: 25px;
+    height: 25px;
+    align-self: center;
+    
+
+
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 15px;
+    color: black;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+
+
+.bottom-section {
+    display: flex;
+    /* margin-left: 40px;
+    height:100px;
+    width:900px;*/
+    flex-direction: row;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    justify-content: space-evenly;
+    margin-left: 40px;
+    margin-top: 70px;
+
+
+}
+
+.bs-1,
+.bs-2,
+.bs-3,
+.bs-4 {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 10px 15px rgb(0 0 0/8%), 0 0 6px rgb(0 0 0/5%);
+    padding: 20px;
+    display: flex;
+    height: 80px;
+
+}
+
+.bs-1:hover,
+.bs-2:hover,
+.bs-3:hover,
+.bs-4:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 15px rgb(0 0 0/8%), 0 0 6px rgb(0 0 0/5%);
+}
+
+
+
+.bs-para1 {
+    padding-top: 10px;
+    font-size: 15px;
+    color: gray;
+    width: 260px;
+
+
+}
+
+.link {
+    text-decoration-line: none;
+}
+
+
+.lower-section {
+    width: 100%;
+    height: 114px;
+
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img-ls {
+    justify-content: space-between;
+    display: flex;
+    height: 40px;
+    width: 165px;
+    justify-content: space-evenly;
+
+
+}
+
+.li {
+    padding-left: 50px;
+    justify-content: space-evenly;
+}
+
+.gov {
+
+    color: grey;
+    text-align: center;
+
+    font-size: 15px;
+    padding-top: 25px;
+}
+
+
+
+.foot {
+    display: flex;
+    gap: 30px;
+    line-height: 1.5;
+    padding: 20px;
+    border-bottom: 1px solid #fff;
+    background-color: #323632;
+    text-decoration-line: none;
+    color: #fff;
+    padding-top: 25px;
+    height:80px ;
+    font-size: 14.4px;
+    padding-bottom: 20px;
+    padding-left: 70px;
+
+}
+
+.div1 {
+
+    flex-direction: column;
+    text-decoration-line: none;
+    color: white;
+
+}
+
+.footer-li{
+    text-decoration-line: none;
+    color: #fff;
+}
+    
+    
+.footer-lower {
+    display: flex;
+    padding-top: 50px;
+    padding-left: 45px;
+    line-height: 1.5;
+    background-color: #323632;
+    color: #fff;
+    font-size: small;
+}
+
+.lower-div3 {
+    text-align: left;
+    margin-bottom: 60px;
+}
+
+.phone {
+    padding-left: 270px;
+    margin-left: 50px;
+}
+
+.lower-div4 {
+    padding-left: 15px;
+    border-left: 1px solid #fff;
+}
+
+
